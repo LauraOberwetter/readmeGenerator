@@ -61,7 +61,7 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(fileName, responses) {
      let testMarkdown = "#HEllo"
      return fs.writeFileSync(path.join(process.cwd(), fileName), data) //file in current working directory
 
@@ -74,7 +74,7 @@ function init() {
         console.log(responses);
         //key=name, value=answer
         // call generate markdown?
-        writeToFile("README.md", data) //data=param representing passed content // potentially have user enter different name for md file
+        writeToFile("README.md", responses) //data=param representing passed content // potentially have user enter different name for md file
         console.log(responses) 
     // include responses.name to access answer responses?
     })

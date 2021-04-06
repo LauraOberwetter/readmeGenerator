@@ -14,7 +14,47 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-`;
-}
+  ## Description
+    ${data.description}
+
+  ## Table of Contents
+      * Description
+      * Installation
+      * Usage
+      * Contributing
+      * Tests
+      * Contact
+  
+  ## Installation
+    ### To install necessary dependencies, run the bellow command:
+    \`\`\`
+    ${data.installation}
+    \`\`\`
+
+  ## Usage
+    ### It is recommended that this program is used as follows: 
+    ${data.usage}
+
+  ## License
+    ${data.License}
+
+  ## Contribution
+    ### Contribution guidelines are as follows:
+    ${data.contributing}
+
+  ## Tests
+    ${data.Tests}
+
+  ## Contacct
+    ### Laura's GitHub:
+      ${data.gitHub}
+    ### Laura's email:
+      ${data.email}`
+
+
+  
+};
 
 module.exports = generateMarkdown;
+
+//consider spaces/lines/markdown formatting
