@@ -1,7 +1,7 @@
 # README.md Generator
 
   ## Description
-    This is a JavaScript and Node powered README.md generator. Launch node from the terminal to initiated README prompts. Provide information to all prompts to generate a fully formatted README.md for any repository. In later iterations this program will automatically generate the appropriate license badges for the repository.  
+   This is a JavaScript and Node powered README.md generator. Launch node from the terminal to initiated README prompts. Provide information to all prompts to generate a fully formatted README.md for any repository. In later iterations this program will automatically generate the appropriate license badges for the repository.  
 
   ## Table of Contents
       * Description
