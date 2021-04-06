@@ -45,13 +45,11 @@ function generateMarkdown(data) {
   ## Tests
     ${data.Tests}
 
-  ## Contacct
+  ## Contact
     ### Laura's GitHub:
       ${data.gitHub}
     ### Laura's email:
       ${data.email}`
-
-
   
 };
 

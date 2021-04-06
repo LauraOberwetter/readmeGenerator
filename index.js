@@ -2,7 +2,8 @@
 //"import inquirer"
 const inquirer = require("inquirer")
 const fs = require("fs")
-const path = require("path")//require a path package for the md file name
+const path = require("path");//require a path package for the md file name
+const generateMarkdown = require("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -35,7 +36,7 @@ const questions = [
         name: 'License',
         message: 'What licensing does this project have?',
         choices: [
-            'None','Apache', 'BSD', 'Creative Commons', 'Eclipse', 'GNU', 'IBM', 'MIT', 'Mozilla', 'Zlib'
+            'None', 'Eclipse', 'MIT', 'Mozilla'
         ],
     },
     {
@@ -61,8 +62,8 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, responses) {
-     let testMarkdown = "#HEllo"
+function writeToFile(fileName, data) {
+     let markdown = data;
      return fs.writeFileSync(path.join(process.cwd(), fileName), data) //file in current working directory
 
 }
@@ -74,7 +75,7 @@ function init() {
         console.log(responses);
         //key=name, value=answer
         // call generate markdown?
-        writeToFile("README.md", responses) //data=param representing passed content // potentially have user enter different name for md file
+        writeToFile("README.md", generateMarkdown(responses))
         console.log(responses) 
     // include responses.name to access answer responses?
     })
