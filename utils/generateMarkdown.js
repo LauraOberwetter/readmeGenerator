@@ -27,29 +27,29 @@ function generateMarkdown(data) {
   
   ## Installation
   ### To install necessary dependencies, run the bellow command:
-    \`\`\`
-    ${data.installation}
-    \`\`\`
+  \`\`\`
+  ${data.installation}
+  \`\`\`
 
   ## Usage
   ### It is recommended that this program is used as follows: 
-    ${data.usage}
+  ${data.usage}
 
   ## License
-    ${data.License}
+  ${data.License}
 
   ## Contribution
   ### Contribution guidelines are as follows:
   ${data.contributing}
 
   ## Tests
-    ${data.Tests}
+  ${data.Tests}
 
   ## Contact
   ### Laura's GitHub:
-      ${data.gitHub}
+  ${data.gitHub}
   ### Laura's email:
-      ${data.email}`
+  ${data.email}`
   
 };
 
