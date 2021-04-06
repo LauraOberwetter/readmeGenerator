@@ -1,7 +1,7 @@
-# is this working
+# README.md Generator
 
   ## Description
-    hopefully working
+    This is a JavaScript and Node powered README.md generator. Launch node from the terminal to initiated README prompts. Provide information to all prompts to generate a fully formatted README.md for any repository
 
   ## Table of Contents
       * Description
@@ -14,25 +14,25 @@
   ## Installation
   ### To install necessary dependencies, run the bellow command:
     ```
-    none
+    Fork this repo and navigate to the directory from Terminal. Run "node index.js" to initiate the program.
     ```
 
   ## Usage
   ### It is recommended that this program is used as follows: 
-    idk
+    Use this program to generate a README.md for all personal or professional GitHub repositories
 
   ## License
     None
 
   ## Contribution
   ### Contribution guidelines are as follows:
-  kd
+  Contact the repository owner for contribution instructions
 
   ## Tests
-    j
+    
 
   ## Contact
   ### Laura's GitHub:
-      dj
+      https://github.com/LauraOberwetter
   ### Laura's email:
-      j
+      leoberwetter@gmail.com
