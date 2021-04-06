@@ -26,29 +26,29 @@ function generateMarkdown(data) {
       * Contact
   
   ## Installation
-    ### To install necessary dependencies, run the bellow command:
+  ### To install necessary dependencies, run the bellow command:
     \`\`\`
     ${data.installation}
     \`\`\`
 
   ## Usage
-    ### It is recommended that this program is used as follows: 
+  ### It is recommended that this program is used as follows: 
     ${data.usage}
 
   ## License
     ${data.License}
 
   ## Contribution
-    ### Contribution guidelines are as follows:
-    ${data.contributing}
+  ### Contribution guidelines are as follows:
+  ${data.contributing}
 
   ## Tests
     ${data.Tests}
 
   ## Contact
-    ### Laura's GitHub:
+  ### Laura's GitHub:
       ${data.gitHub}
-    ### Laura's email:
+  ### Laura's email:
       ${data.email}`
   
 };
